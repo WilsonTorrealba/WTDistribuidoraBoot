@@ -1,5 +1,74 @@
-.navbar-brand {
-    position: absolute;
-    left: 50%;
-    margin-left: -35px;
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+} 
+main {
+    flex: 1 0 auto;
+    min-height: ;
 }
+
+/* efeito hover na nav  */
+@media screen and (min-width:990px) {
+    .navbar-brand {
+        position: absolute;
+        left: 50%;
+        top: 0;
+        margin-left: -45px;
+    }
+
+    .nav-link {
+        transition: all 0.5s;
+    }
+    .nav-link:hover, .nav-link.active {
+        background-color: #000;
+        color: #fff!important;
+        transition: all 0.5s;
+    }
+    .configNavbar {
+        height: 100px;
+    }
+    li.nav-item a {
+        padding: 38px 0;
+    }
+}
+
+.icofont-navigation-menu {
+    color: blue;
+}
+
+/* limitar imagem  */
+
+.card-img {
+    max-height: 200px;
+    overflow: hidden;
+}
+
+/* FOOTER DO MATERIALIZE  */
+
+.page-footer {
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    background-color: #000;
+    color: white;
+    
+}
+
+.page-footer .footer-copyright {
+    padding: 20px 0;
+}
+
+.footer-copyright *{
+    color: white;
+    text-decoration: none;
+}
+
+.footer-copyright a:hover {
+    color: #ccc;
+}
+
+.right {
+    float: right;
+}
+    

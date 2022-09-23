@@ -5,15 +5,17 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="icofont/icofont.min.css">
     <link rel="stylesheet" href="css/app.css">
     <title>WT DISTRIBUIDORA NO BOOTSTRAP</title>
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg bg-ligth">
+    <nav class="navbar navbar-expand-lg bg-ligth configNavbar">
         <div class="container-fluid">
-          <a class="navbar-brand" href="#"> <img src="img/logo2.png" width="70px"></a>
+          <a class="navbar-brand" href="#"> <img src="img/logo2.png" width="90px"></a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
+            <!-- <span class="navbar-toggler-icon"></span> -->
+            <i class="icofont-navigation-menu"></i>
           </button>
           <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav">
@@ -21,13 +23,16 @@
                 <a class="nav-link active" aria-current="page" href="#">Home</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="empresa.html">Empresas</a>
+                <a class="nav-link" href="empresa.html">A Empresas</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="clientes.html">Produtos</a>
+                <a class="nav-item" href="clientes.html"></a>
               </li>
               <li class="nav-item">
-                <a class="nav-link disabled" href="">Contato</a>
+                <a class="nav-link" href="produtos.html">Produtos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled" href="contato.html">Contato</a>
               </li>
             </ul>
           </div>
@@ -35,30 +40,89 @@
       </nav>
 
     <main>
+      
         <div class="container">
-            <!-- <div class="row">
-                <div class="col-sm-1">Teste</div>
-                <div class="col-sm-1">Teste</div>
-                <div class="col-sm-1">Teste</div>
-                <div class="col-sm-1">Teste</div>
-                <div class="col-sm-1">Teste</div>
-                <div class="col-sm-1">Teste</div>
-                <div class="col-sm-1">Teste</div>
-                <div class="col-sm-1">Teste</div>
-                <div class="col-sm-1">Teste</div>
-                <div class="col-sm-1">Teste</div>
-                <div class="col-sm-1">Teste</div>
-                <div class="col-sm-1">Teste</div>
+          <!-- banner  -->
+          <div class="row">
+            <div class="col-md-12 col-12 pt-5 pb-5">
+              <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="img/banner1.jpg" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="img/banner2.jpg" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="img/banner3.jpg" class="d-block w-100" alt="...">
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+            <!-- fim do banner  -->
             </div>
+          </div>
+
+            <!-- card  -->
             <div class="row">
-                <div class="col-6 col-sm-8 bg-danger">TESTE</div>
-                <div class="col-6 col-sm-4 bg-danger">TESTE</div>
-            </div> -->
-
-
+              <div class="col-sm-4 col-12">
+                <div class="card" style="width: 100%;">
+                  <div class="card-img">
+                  <img src="img/voss.png" class="card-img-top" alt="..." >
+                  </div>
+                  <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-4 col-12">
+                <div class="card" style="width: 100%;">
+                  <div class="card-img">
+                    <img src="img/Coca-Cola.png" class="card-img-top" alt="...">
+                  </div>
+                  <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-4 col-12">
+                <div class="card" style="width: 100%;">
+                  <div class="card-img">
+                  <img src="img/bebidas.png" class="card-img-top" alt="...">
+                  </div>
+                  <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                  </div>
+                </div>
+              </div>
+            </div>
         </div>
     </main>
 
+    <footer class="page-footer">
+      <div class="container">
+        
+      </div>
+      <div class="footer-copyright">
+        <div class="container">
+        © 2014 Copyright Text
+        <a class="right" href="#!">Feito por Wilson Torrealba</a>
+        </div>
+      </div>
+    </footer>
     <script src="js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
