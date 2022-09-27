@@ -37,6 +37,10 @@ main {
     color: blue;
 }
 
+main {
+    padding: 30px 0;
+}
+
 /* limitar imagem  */
 
 .card-img {
@@ -44,6 +48,27 @@ main {
     overflow: hidden;
 }
 
+.containerEmpresa .empresa h2 {
+    font-weight: 500;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #000;
+    text-align: center;
+}
+
+.containerEmpresa .empresa p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(4, 4, 34);
+    font-weight: 100;
+    width: 80%;
+    text-align: justify;
+    margin-left: 10%;
+}
+
+.containerClientes .clientes {
+    /* position: relative;
+    display: flex; */
+
+}
 /* FOOTER DO MATERIALIZE  */
 
 .page-footer {
